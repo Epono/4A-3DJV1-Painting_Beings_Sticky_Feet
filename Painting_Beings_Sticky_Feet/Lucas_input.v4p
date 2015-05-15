@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
-   <PATCH nodename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\Lucas_input.v4p" scrollx="1305" scrolly="585" systemname="Lucas" filename="C:\Users\asusasus\Documents\4A3DJV\Modelisation3D\Projet Sticky Feets\vvvv_45beta33.7_x64\Lucas.v4p">
-   <BOUNDS type="Window" left="3075" top="1170" width="3240" height="2565">
+   <PATCH nodename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\Lucas_input.v4p" scrollx="0" scrolly="0" systemname="Lucas" filename="C:\Users\asusasus\Documents\4A3DJV\Modelisation3D\Projet Sticky Feets\vvvv_45beta33.7_x64\Lucas.v4p">
+   <BOUNDS type="Window" left="3075" top="1170" width="3705" height="2205">
    </BOUNDS>
    <NODE systemname="FileTexture (EX9.Texture)" nodename="FileTexture (EX9.Texture)" componentmode="Hidden" id="1">
    <BOUNDS type="Node" left="3705" top="6660" width="100" height="100">
@@ -331,7 +331,7 @@
    </PIN>
    <PIN pinname="Loop Start Time" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="Do Seek" slicecount="1" values="0" visible="1">
+   <PIN pinname="Do Seek" slicecount="1" visible="1" values="0">
    </PIN>
    <PIN pinname="Audio" visible="1">
    </PIN>
@@ -365,9 +365,9 @@
    <LINK srcnodeid="46" srcpinname="Audio" dstnodeid="50" dstpinname="Audio">
    </LINK>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="52">
-   <BOUNDS type="Node" left="2520" top="1620" width="100" height="100">
+   <BOUNDS type="Node" left="1440" top="705" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="2520" top="1620" width="480" height="480">
+   <BOUNDS type="Box" left="1440" top="705" width="480" height="480">
    </BOUNDS>
    <PIN pinname="Value Type" slicecount="1" values="Boolean">
    </PIN>
@@ -377,7 +377,7 @@
    </PIN>
    <PIN pinname="X Input Value" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="1" values="0" visible="1">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
    </PIN>
    </NODE>
    <LINK srcnodeid="52" srcpinname="Y Output Value" dstnodeid="46" dstpinname="Play">
@@ -442,8 +442,6 @@
    </LINK>
    <LINK srcnodeid="65" srcpinname="Output" dstnodeid="68" dstpinname="Input 1">
    </LINK>
-   <LINK srcnodeid="52" srcpinname="Y Output Value" dstnodeid="68" dstpinname="Switch">
-   </LINK>
    <NODE systemname="Switch (Node Input)" nodename="Switch (Node Input)" componentmode="Hidden" id="75">
    <BOUNDS type="Node" left="4140" top="9735" width="100" height="100">
    </BOUNDS>
@@ -460,14 +458,28 @@
    </LINK>
    <LINK srcnodeid="3" srcpinname="Layer" dstnodeid="75" dstpinname="Input 2">
    </LINK>
-   <LINK srcnodeid="52" srcpinname="Y Output Value" dstnodeid="75" dstpinname="Switch">
-   </LINK>
    <NODE systemname="IOBox (String)" nodename="IOBox (String)" componentmode="InABox" id="81">
-   <BOUNDS type="Node" left="1575" top="1230" width="100" height="100">
+   <BOUNDS type="Node" left="495" top="315" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="1575" top="1230" width="2445" height="285">
+   <BOUNDS type="Box" left="495" top="315" width="2445" height="285">
    </BOUNDS>
    <PIN pinname="Input String" slicecount="1" values="|RIGHT CLICK HERE TO HAVE FUN !|">
    </PIN>
    </NODE>
+   <NODE systemname="Delay (Animation)" nodename="Delay (Animation)" componentmode="Hidden" id="82">
+   <BOUNDS type="Node" left="1710" top="4065" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Input" slicecount="1" visible="1" values="0">
+   </PIN>
+   <PIN pinname="Time" slicecount="1" values="1.15">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="82" srcpinname="Output" dstnodeid="75" dstpinname="Switch">
+   </LINK>
+   <LINK srcnodeid="82" srcpinname="Output" dstnodeid="68" dstpinname="Switch">
+   </LINK>
+   <LINK srcnodeid="52" srcpinname="Y Output Value" dstnodeid="82" dstpinname="Input">
+   </LINK>
    </PATCH>
