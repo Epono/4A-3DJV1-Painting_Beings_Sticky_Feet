@@ -335,7 +335,7 @@
    </PIN>
    <PIN pinname="Audio" visible="1">
    </PIN>
-   <PIN pinname="Loop End Time" slicecount="1" values="0">
+   <PIN pinname="Loop End Time" slicecount="1" values="51.21">
    </PIN>
    </NODE>
    <NODE systemname="IOBox (String)" nodename="IOBox (String)" componentmode="InABox" id="47">
