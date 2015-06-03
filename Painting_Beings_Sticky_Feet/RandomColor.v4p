@@ -1,0 +1,129 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
+   <PATCH nodename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\RandomColor.v4p" systemname="RandomColor" filename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\RandomColor.v4p">
+   <BOUNDS type="Window" left="14040" top="3468" width="9000" height="6000">
+   </BOUNDS>
+   <PACK Name="addonpack" Version="33.7.0">
+   </PACK>
+   <NODE systemname="Random (Value)" nodename="Random (Value)" componentmode="Hidden" id="4" hiddenwhenlocked="0" managers="">
+   <BOUNDS type="Node" left="1812" top="1056" width="732" height="276">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1" pintype="Output">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" pintype="Configuration" values="||">
+   </PIN>
+   <PIN pinname="Enabled" pintype="Input" visible="1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Is Integer" pintype="Input" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Scale" pintype="Input" visible="1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Prevent from doubles" pintype="Input" visible="1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   </NODE>
+   <NODE systemname="IOBox (Color)" nodename="IOBox (Color)" componentmode="InABox" id="3" hiddenwhenlocked="0" managers="">
+   <BOUNDS type="Node" left="1812" top="3096" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1812" top="3096" width="2250" height="480">
+   </BOUNDS>
+   <PIN pinname="Color Input" visible="1" slicecount="1" pintype="Input" values="|0.71510,0.89553,0.51453,1.00000|">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" pintype="Configuration" values="|Random Color|">
+   </PIN>
+   <BOUNDS type="Window" left="0" top="0" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Tag" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Pin Visibility" pintype="Configuration" slicecount="1" values="True">
+   </PIN>
+   <PIN pinname="SliceCount Mode" pintype="Configuration" slicecount="1" values="Input">
+   </PIN>
+   <PIN pinname="Columns" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Rows" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Pages" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Show SliceIndex" pintype="Configuration" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Font" pintype="Configuration" slicecount="1" values="|Lucida Sans Unicode|">
+   </PIN>
+   <PIN pinname="Size" pintype="Configuration" slicecount="1" values="7">
+   </PIN>
+   <PIN pinname="Show Grid" pintype="Configuration" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Show Value" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Chooser Style" pintype="Configuration" slicecount="1" values="HSVAField">
+   </PIN>
+   <PIN pinname="SliceOffset" pintype="Input" visible="-1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Color Output" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   </NODE>
+   <NODE systemname="RGB (Color Join)" nodename="RGB (Color Join)" componentmode="Hidden" id="2" hiddenwhenlocked="0" managers="">
+   <BOUNDS type="Node" left="1812" top="2160" width="624" height="276">
+   </BOUNDS>
+   <PIN pinname="Red" visible="1" slicecount="1" pintype="Input" values="0.715102301212028">
+   </PIN>
+   <PIN pinname="Output" visible="1" pintype="Output">
+   </PIN>
+   <PIN pinname="Green" visible="1" slicecount="1" pintype="Input" values="0.89553074981086">
+   </PIN>
+   <PIN pinname="Blue" visible="1" slicecount="1" pintype="Input" values="0.514525378355756">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" pintype="Configuration" values="||">
+   </PIN>
+   <PIN pinname="Alpha" pintype="Input" visible="1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Random (Value)" nodename="Random (Value)" componentmode="Hidden" id="1" hiddenwhenlocked="0" managers="">
+   <BOUNDS type="Node" left="2016" top="1416" width="732" height="276">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1" pintype="Output">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" pintype="Configuration" values="||">
+   </PIN>
+   <PIN pinname="Enabled" pintype="Input" visible="1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Is Integer" pintype="Input" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Scale" pintype="Input" visible="1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Prevent from doubles" pintype="Input" visible="1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Random (Value)" nodename="Random (Value)" componentmode="Hidden" id="0" hiddenwhenlocked="0" managers="">
+   <BOUNDS type="Node" left="2184" top="1776" width="732" height="276">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1" pintype="Output">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" pintype="Configuration" values="||">
+   </PIN>
+   <PIN pinname="Enabled" pintype="Input" visible="1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Is Integer" pintype="Input" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Scale" pintype="Input" visible="1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Prevent from doubles" pintype="Input" visible="1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="4" srcpinname="Output" dstnodeid="2" dstpinname="Red">
+   </LINK>
+   <LINK srcnodeid="2" srcpinname="Output" dstnodeid="3" dstpinname="Color Input">
+   </LINK>
+   <LINK srcnodeid="1" srcpinname="Output" dstnodeid="2" dstpinname="Green">
+   </LINK>
+   <LINK srcnodeid="0" srcpinname="Output" dstnodeid="2" dstpinname="Blue">
+   </LINK>
+   </PATCH>

@@ -1,0 +1,155 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv33beta13.1.dtd" >
+   <PATCH nodename="D:\temp\SetSlice (EX9.Texture).v4p">
+   <BOUNDS type="Window" left="9495" top="1890" width="3540" height="3405">
+   </BOUNDS>
+   <NODE nodename="IOBox (Node)" componentmode="InABox" id="0">
+   <BOUNDS type="Node" left="15" top="15" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Window" left="10410" top="6060" width="215" height="160">
+   </BOUNDS>
+   <BOUNDS type="Box" left="15" top="15" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Spread Node|">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Node)" componentmode="InABox" id="1">
+   <BOUNDS type="Node" left="1215" top="15" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Window" left="10710" top="6360" width="215" height="160">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1215" top="15" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Input">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Node)" componentmode="InABox" id="2">
+   <BOUNDS type="Node" left="15" top="2520" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Window" left="10710" top="6360" width="215" height="160">
+   </BOUNDS>
+   <BOUNDS type="Box" left="15" top="2520" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Output Node|">
+   </PIN>
+   </NODE>
+   <NODE nodename="GetSlice (Node)" id="3">
+   <BOUNDS type="Node" left="15" top="2040" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="Cons (EX9.Texture)" id="4">
+   <BOUNDS type="Node" left="15" top="720" width="1245" height="270">
+   </BOUNDS>
+   <PIN pinname="Texture In 1" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Texture In 2" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Texture Out" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="0" srcpinname="Output Node" dstnodeid="4" dstpinname="Texture In 1">
+   </LINK>
+   <LINK srcnodeid="1" srcpinname="Output Node" dstnodeid="4" dstpinname="Texture In 2">
+   </LINK>
+   <LINK srcnodeid="4" srcpinname="Texture Out" dstnodeid="3" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="3" srcpinname="Output Node" dstnodeid="2" dstpinname="Input Node">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="5">
+   <BOUNDS type="Node" left="2325" top="15" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Window" left="12195" top="2190" width="215" height="160">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2325" top="15" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Slice Index|">
+   </PIN>
+   </NODE>
+   <NODE nodename="Count (Node)" id="6">
+   <BOUNDS type="Node" left="1665" top="675" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Count" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="0" srcpinname="Output Node" dstnodeid="6" dstpinname="Input">
+   </LINK>
+   <NODE nodename="I (Spreads)" id="7">
+   <BOUNDS type="Node" left="1470" top="1020" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname=".. To [" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="6" srcpinname="Count" dstnodeid="7" dstpinname=".. To [">
+   </LINK>
+   <NODE nodename="SetSlice (Spreads)" id="9">
+   <BOUNDS type="Node" left="1470" top="1830" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Spread" visible="1">
+   </PIN>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Slice Index" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="7" srcpinname="Output" dstnodeid="9" dstpinname="Spread">
+   </LINK>
+   <NODE nodename="Count (Node)" id="11">
+   <BOUNDS type="Node" left="2325" top="675" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Count" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="I (Spreads)" id="10">
+   <BOUNDS type="Node" left="2130" top="1020" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname=".. To [" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="11" srcpinname="Count" dstnodeid="10" dstpinname=".. To [">
+   </LINK>
+   <LINK srcnodeid="1" srcpinname="Output Node" dstnodeid="11" dstpinname="Input">
+   </LINK>
+   <NODE nodename="Add (Value)" id="12">
+   <BOUNDS type="Node" left="1785" top="1425" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="6" srcpinname="Count" dstnodeid="12" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="10" srcpinname="Output" dstnodeid="12" dstpinname="Input 2">
+   </LINK>
+   <LINK srcnodeid="12" srcpinname="Output" dstnodeid="9" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="5" srcpinname="Y Output Value" dstnodeid="9" dstpinname="Slice Index">
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="Output" dstnodeid="3" dstpinname="Index">
+   </LINK>
+   </PATCH>
