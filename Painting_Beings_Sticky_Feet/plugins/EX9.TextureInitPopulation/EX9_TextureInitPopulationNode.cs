@@ -34,10 +34,10 @@ namespace VVVV.Nodes
 			public int Height;
 		}
 		
-		[Input("Width", DefaultValue = 64, MinValue = 1)]
+		[Input("Width", DefaultValue = 23, MinValue = 1)]
 		public ISpread<int> FWidthIn;
 
-		[Input("Height", DefaultValue = 64, MinValue = 1)]
+		[Input("Height", DefaultValue = 23, MinValue = 1)]
 		public ISpread<int> FHeightIn;
 
 		[Output("Texture Out")]
