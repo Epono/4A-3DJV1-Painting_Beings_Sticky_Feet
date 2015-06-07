@@ -1,0 +1,645 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
+   <PATCH nodename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\FitnessEvaluationRoot.v4p" scrollx="4980" scrolly="240" systemname="FitnessEvaluationRoot" filename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\FitnessEvaluationRoot.v4p">
+   <BOUNDS type="Window" left="3132" top="1140" width="18336" height="10716">
+   </BOUNDS>
+   <PACK Name="addonpack" Version="33.7.0">
+   </PACK>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="40">
+   <BOUNDS type="Node" left="11412" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="5">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="39">
+   <BOUNDS type="Node" left="10512" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="4">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="38">
+   <BOUNDS type="Node" left="12288" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="6">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="37">
+   <BOUNDS type="Node" left="9576" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="3">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="36">
+   <BOUNDS type="Node" left="20208" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="15">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="35">
+   <BOUNDS type="Node" left="13116" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="7">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="34">
+   <BOUNDS type="Node" left="19332" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="14">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="33">
+   <BOUNDS type="Node" left="8664" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="2">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="32">
+   <BOUNDS type="Node" left="7884" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="31">
+   <BOUNDS type="Node" left="14904" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="9">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="30">
+   <BOUNDS type="Node" left="14064" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="8">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="29">
+   <BOUNDS type="Node" left="21108" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="16">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="28">
+   <BOUNDS type="Node" left="6984" top="2532" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="27">
+   <BOUNDS type="Node" left="16800" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="11">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="26">
+   <BOUNDS type="Node" left="23700" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="19">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="25">
+   <BOUNDS type="Node" left="15792" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="10">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="24">
+   <BOUNDS type="Node" left="22884" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="18">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="23">
+   <BOUNDS type="Node" left="21996" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="17">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="22">
+   <BOUNDS type="Node" left="17772" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="12">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="21">
+   <BOUNDS type="Node" left="18552" top="2556" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Index" slicecount="1" values="13">
+   </PIN>
+   </NODE>
+   <NODE systemname="Cons (Spreads)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Cons (Spreads)" componentmode="Hidden" id="20">
+   <BOUNDS type="Node" left="13116" top="7476" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Input Count" slicecount="1" values="20">
+   </PIN>
+   <PIN pinname="Input 1" visible="1" slicecount="1" values="675.454915590584">
+   </PIN>
+   <PIN pinname="Input 2" visible="1" slicecount="1" values="665.388247861527">
+   </PIN>
+   <PIN pinname="Input 3" visible="1" slicecount="1" values="676.482366112992">
+   </PIN>
+   <PIN pinname="Input 4" visible="1" slicecount="1" values="660.098051898647">
+   </PIN>
+   <PIN pinname="Input 5" visible="1" slicecount="1" values="650.662757470273">
+   </PIN>
+   <PIN pinname="Input 6" visible="1" slicecount="1" values="656.282365152612">
+   </PIN>
+   <PIN pinname="Input 7" visible="1" slicecount="1" values="694.60001263395">
+   </PIN>
+   <PIN pinname="Input 8" visible="1" slicecount="1" values="674.368640180211">
+   </PIN>
+   <PIN pinname="Input 9" visible="1" slicecount="1" values="668.478444329929">
+   </PIN>
+   <PIN pinname="Input 10" visible="1" slicecount="1" values="684.309817259666">
+   </PIN>
+   <PIN pinname="Input 11" visible="1" slicecount="1" values="686.000012937468">
+   </PIN>
+   <PIN pinname="Input 12" visible="1" slicecount="1" values="682.831385266502">
+   </PIN>
+   <PIN pinname="Input 13" visible="1" slicecount="1" values="686.901973822154">
+   </PIN>
+   <PIN pinname="Input 14" visible="1" slicecount="1" values="697.580405017361">
+   </PIN>
+   <PIN pinname="Input 15" visible="1" slicecount="1" values="689.949032672215">
+   </PIN>
+   <PIN pinname="Input 16" visible="1" slicecount="1" values="682.745110908058">
+   </PIN>
+   <PIN pinname="Input 17" visible="1" slicecount="1" values="670.694130092859">
+   </PIN>
+   <PIN pinname="Input 18" visible="1" slicecount="1" values="671.113738038577">
+   </PIN>
+   <PIN pinname="Input 19" visible="1" slicecount="1" values="675.529424326029">
+   </PIN>
+   <PIN pinname="Input 20" visible="1" slicecount="1" values="666.047071497887">
+   </PIN>
+   </NODE>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="19">
+   <BOUNDS type="Node" left="6240" top="5640" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="32" srcpinname="Output Node" dstnodeid="19" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="19" srcpinname="Score" dstnodeid="20" dstpinname="Input 2" linkstyle="Bezier">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="18">
+   <BOUNDS type="Node" left="7080" top="6036" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="33" srcpinname="Output Node" dstnodeid="18" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="18" srcpinname="Score" dstnodeid="20" dstpinname="Input 3" linkstyle="Bezier">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="17">
+   <BOUNDS type="Node" left="7992" top="6432" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="37" srcpinname="Output Node" dstnodeid="17" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="17" srcpinname="Score" dstnodeid="20" dstpinname="Input 4" linkstyle="Bezier">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="16">
+   <BOUNDS type="Node" left="8892" top="6948" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="39" srcpinname="Output Node" dstnodeid="16" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="16" srcpinname="Score" dstnodeid="20" dstpinname="Input 5" linkstyle="Bezier">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="15">
+   <BOUNDS type="Node" left="9816" top="5136" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="40" srcpinname="Output Node" dstnodeid="15" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="15" srcpinname="Score" dstnodeid="20" dstpinname="Input 6" linkstyle="Bezier">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="14">
+   <BOUNDS type="Node" left="10764" top="5544" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="38" srcpinname="Output Node" dstnodeid="14" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="14" srcpinname="Score" dstnodeid="20" dstpinname="Input 7" linkstyle="Bezier">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="13">
+   <BOUNDS type="Node" left="11568" top="5940" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="35" srcpinname="Output Node" dstnodeid="13" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="13" srcpinname="Score" dstnodeid="20" dstpinname="Input 8" linkstyle="Bezier">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="12">
+   <BOUNDS type="Node" left="12516" top="6384" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="30" srcpinname="Output Node" dstnodeid="12" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="12" srcpinname="Score" dstnodeid="20" dstpinname="Input 9" linkstyle="Bezier">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="11">
+   <BOUNDS type="Node" left="13392" top="6936" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="31" srcpinname="Output Node" dstnodeid="11" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="11" srcpinname="Score" dstnodeid="20" dstpinname="Input 10" linkstyle="Bezier">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="10">
+   <BOUNDS type="Node" left="14184" top="5136" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="25" srcpinname="Output Node" dstnodeid="10" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="10" srcpinname="Score" dstnodeid="20" dstpinname="Input 11" linkstyle="Bezier">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="9">
+   <BOUNDS type="Node" left="15180" top="5508" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="27" srcpinname="Output Node" dstnodeid="9" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="Score" dstnodeid="20" dstpinname="Input 12" linkstyle="Bezier">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="8">
+   <BOUNDS type="Node" left="16200" top="5904" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="22" srcpinname="Output Node" dstnodeid="8" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="8" srcpinname="Score" dstnodeid="20" dstpinname="Input 13" linkstyle="Bezier">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="7">
+   <BOUNDS type="Node" left="16956" top="6336" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="21" srcpinname="Output Node" dstnodeid="7" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="7" srcpinname="Score" dstnodeid="20" dstpinname="Input 14" linkstyle="Bezier">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="6">
+   <BOUNDS type="Node" left="17832" top="6780" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="34" srcpinname="Output Node" dstnodeid="6" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="6" srcpinname="Score" dstnodeid="20" dstpinname="Input 15" linkstyle="Bezier">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="5">
+   <BOUNDS type="Node" left="18636" top="5136" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="36" srcpinname="Output Node" dstnodeid="5" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="5" srcpinname="Score" dstnodeid="20" dstpinname="Input 16" linkstyle="Bezier">
+   </LINK>
+   <NODE id="4" componentmode="Hidden" systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p">
+   <BOUNDS type="Node" left="19500" top="5532" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="4" srcpinname="Score" dstnodeid="20" dstpinname="Input 17" linkstyle="Bezier">
+   </LINK>
+   <LINK srcnodeid="29" srcpinname="Output Node" dstnodeid="4" dstpinname="OtherTexture">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="3">
+   <BOUNDS type="Node" left="20388" top="5976" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="23" srcpinname="Output Node" dstnodeid="3" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="3" srcpinname="Score" dstnodeid="20" dstpinname="Input 18" linkstyle="Bezier">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="2">
+   <BOUNDS type="Node" left="21276" top="6384" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="24" srcpinname="Output Node" dstnodeid="2" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="2" srcpinname="Score" dstnodeid="20" dstpinname="Input 19" linkstyle="Bezier">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="1">
+   <BOUNDS type="Node" left="22068" top="6900" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="26" srcpinname="Output Node" dstnodeid="1" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="1" srcpinname="Score" dstnodeid="20" dstpinname="Input 20" linkstyle="Bezier">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="0">
+   <BOUNDS type="Node" left="5364" top="5268" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="28" srcpinname="Output Node" dstnodeid="0" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="0" srcpinname="Score" dstnodeid="20" dstpinname="Input 1" linkstyle="Bezier">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="44">
+   <BOUNDS type="Node" left="13116" top="8088" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="13116" top="8088" width="792" height="240">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Fitnesses">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="20" srcpinname="Output" dstnodeid="44" dstpinname="Y Input Value">
+   </LINK>
+   <NODE systemname="IOBox (Node)" nodename="IOBox (Node)" componentmode="InABox" id="45">
+   <BOUNDS type="Node" left="5304" top="3108" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="5304" top="3108" width="792" height="240">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Original Texture|">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="IOBox (Node)" nodename="IOBox (Node)" componentmode="InABox" id="46">
+   <BOUNDS type="Node" left="14148" top="876" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="14148" top="876" width="792" height="240">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Solutions">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="28" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="32" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="33" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="37" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="39" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="40" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="38" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="35" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="30" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="31" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="25" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="27" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="22" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="21" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="34" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="36" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="29" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="23" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="24" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Output Node" dstnodeid="26" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="0" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="19" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="18" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="17" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="16" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="15" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="14" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="13" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="12" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="11" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="10" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="9" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="8" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="7" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="6" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="5" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="4" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="3" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="2" dstpinname="OriginalTexture">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="1" dstpinname="OriginalTexture">
+   </LINK>
+   </PATCH>
