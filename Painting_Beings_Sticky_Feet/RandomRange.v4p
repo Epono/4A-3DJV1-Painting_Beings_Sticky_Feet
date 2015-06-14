@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
-   <PATCH nodename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\RandomRange.v4p" scrollx="0" scrolly="780" systemname="RandomRange" filename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\RandomRange.v4p">
+   <PATCH nodename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\RandomRange.v4p" scrollx="75" scrolly="1755" systemname="RandomRange" filename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\RandomRange.v4p">
    <BOUNDS type="Window" left="8550" top="4245" width="9000" height="6000">
    </BOUNDS>
    <NODE systemname="I (Spreads)" nodename="I (Spreads)" componentmode="Hidden" id="7">
@@ -53,7 +53,7 @@
    <NODE systemname="Random (Value)" nodename="Random (Value)" componentmode="Hidden" id="1">
    <BOUNDS type="Node" left="2280" top="3495" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Scale" slicecount="1" values="5" visible="1">
+   <PIN pinname="Scale" slicecount="1" visible="1" values="5">
    </PIN>
    <PIN pinname="Output" visible="1">
    </PIN>
@@ -105,13 +105,17 @@
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="10">
    <BOUNDS type="Node" left="1827" top="5181" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="1827" top="5181" width="792" height="240">
+   <BOUNDS type="Box" left="1827" top="5181" width="345" height="1065">
    </BOUNDS>
    <PIN pinname="Value Type" slicecount="1" values="Integer">
    </PIN>
    <PIN pinname="Y Input Value" visible="1">
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" values="Range">
+   </PIN>
+   <PIN pinname="SliceCount Mode" slicecount="1" values="ColsRowsPages">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="5">
    </PIN>
    </NODE>
    <LINK srcnodeid="7" srcpinname="Output" dstnodeid="10" dstpinname="Y Input Value">

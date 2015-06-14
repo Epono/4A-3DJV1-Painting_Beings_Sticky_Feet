@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
-   <PATCH nodename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\FitnessEvaluationRoot.v4p" scrollx="4980" scrolly="240" systemname="FitnessEvaluationRoot" filename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\FitnessEvaluationRoot.v4p">
+   <PATCH nodename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\FitnessEvaluationRoot.v4p" scrollx="5415" scrolly="0" systemname="FitnessEvaluationRoot" filename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\FitnessEvaluationRoot.v4p">
    <BOUNDS type="Window" left="3132" top="1140" width="18336" height="10716">
    </BOUNDS>
    <PACK Name="addonpack" Version="33.7.0">
@@ -237,7 +237,7 @@
    </PIN>
    <PIN pinname="Input 14" visible="1" slicecount="1" values="697.580405017361">
    </PIN>
-   <PIN pinname="Input 15" visible="1" slicecount="1" values="689.949032672215">
+   <PIN pinname="Input 15" visible="1" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Input 16" visible="1" slicecount="1" values="682.745110908058">
    </PIN>
@@ -432,7 +432,7 @@
    </LINK>
    <LINK srcnodeid="7" srcpinname="Score" dstnodeid="20" dstpinname="Input 14" linkstyle="Bezier">
    </LINK>
-   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="6">
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="InABox" id="6">
    <BOUNDS type="Node" left="17832" top="6780" width="100" height="100">
    </BOUNDS>
    <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
@@ -443,8 +443,6 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="34" srcpinname="Output Node" dstnodeid="6" dstpinname="OtherTexture">
-   </LINK>
-   <LINK srcnodeid="6" srcpinname="Score" dstnodeid="20" dstpinname="Input 15" linkstyle="Bezier">
    </LINK>
    <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="5">
    <BOUNDS type="Node" left="18636" top="5136" width="100" height="100">
@@ -641,5 +639,19 @@
    <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="2" dstpinname="OriginalTexture">
    </LINK>
    <LINK srcnodeid="45" srcpinname="Output Node" dstnodeid="1" dstpinname="OriginalTexture">
+   </LINK>
+   <NODE systemname="fitnessEvaluationV2" filename="fitnessEvaluationV2.v4p" nodename="fitnessEvaluationV2.v4p" componentmode="Hidden" id="47">
+   <BOUNDS type="Node" left="17385" top="6780" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OriginalTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Score" visible="1">
+   </PIN>
+   <PIN pinname="OtherTexture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="34" srcpinname="Output Node" dstnodeid="47" dstpinname="OtherTexture">
+   </LINK>
+   <LINK srcnodeid="47" srcpinname="Score" dstnodeid="20" dstpinname="Input 15">
    </LINK>
    </PATCH>

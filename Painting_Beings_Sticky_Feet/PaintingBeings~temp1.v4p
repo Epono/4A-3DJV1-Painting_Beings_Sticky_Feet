@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
-   <PATCH nodename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\PaintingBeings.v4p" scrollx="2895" scrolly="27825" systemname="Lucas" filename="C:\Users\asusasus\Documents\4A3DJV\Modelisation3D\Projet Sticky Feets\vvvv_45beta33.7_x64\Lucas.v4p" locked="0">
+   <PATCH nodename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\PaintingBeings.v4p" scrollx="990" scrolly="28815" systemname="Lucas" filename="C:\Users\asusasus\Documents\4A3DJV\Modelisation3D\Projet Sticky Feets\vvvv_45beta33.7_x64\Lucas.v4p" locked="0">
    <BOUNDS type="Window" left="450" top="0" width="11430" height="13065">
    </BOUNDS>
    <NODE systemname="FileTexture (EX9.Texture)" nodename="FileTexture (EX9.Texture)" componentmode="Hidden" id="1">
@@ -1278,6 +1278,8 @@
    <PIN pinname="Input Value" visible="1">
    </PIN>
    </NODE>
+   <LINK srcnodeid="579" srcpinname="Input Value" dstnodeid="576" dstpinname="Texture">
+   </LINK>
    <LINK srcnodeid="576" srcpinname="Layer" dstnodeid="577" dstpinname="Layer 2">
    </LINK>
    <LINK srcnodeid="432" srcpinname="Layer" dstnodeid="577" dstpinname="Layer 1">
@@ -2767,7 +2769,7 @@
    </BOUNDS>
    <PIN pinname="Value Type" slicecount="1" values="Integer">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="1" values="3">
+   <PIN pinname="Y Input Value" slicecount="1" values="1">
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
@@ -2779,7 +2781,5 @@
    <LINK srcnodeid="397" srcpinname="Output" dstnodeid="398" dstpinname="Y Input Value">
    </LINK>
    <LINK srcnodeid="397" srcpinname="Former Index" dstnodeid="528" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="579" srcpinname="Input Value" dstnodeid="576" dstpinname="Texture">
    </LINK>
    </PATCH>
