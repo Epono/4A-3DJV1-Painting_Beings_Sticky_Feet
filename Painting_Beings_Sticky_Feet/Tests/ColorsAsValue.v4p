@@ -1,0 +1,461 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
+   <PATCH nodename="D:\Téléchargements\ColorsAsValue.v4p" scrollx="2496" scrolly="732">
+   <BOUNDS height="10272" left="8220" top="888" type="Window" width="10116">
+   </BOUNDS>
+   <NODE componentmode="InABox" id="24" nodename="IOBox (Color)">
+   <BOUNDS height="0" left="1890" top="2955" type="Node" width="0">
+   </BOUNDS>
+   <BOUNDS height="160" left="4350" top="7530" type="Window" width="215">
+   </BOUNDS>
+   <BOUNDS height="465" left="1890" top="2955" type="Box" width="735">
+   </BOUNDS>
+   <PIN pinname="Color Input" slicecount="1" values="|0.72934,0.00000,0.01247,1.00000|">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="23" nodename="HSV (Color Split)">
+   <BOUNDS height="0" left="1890" top="3795" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Hue" visible="1">
+   </PIN>
+   <PIN pinname="Saturation" visible="1">
+   </PIN>
+   <PIN pinname="Value" visible="1">
+   </PIN>
+   <PIN pinname="Alpha" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="23" dstpinname="Input" srcnodeid="24" srcpinname="Color Output">
+   </LINK>
+   <NODE id="22" nodename="HSV (Color Split)">
+   <BOUNDS height="0" left="3075" top="3795" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Hue" visible="1">
+   </PIN>
+   <PIN pinname="Saturation" visible="1">
+   </PIN>
+   <PIN pinname="Value" visible="1">
+   </PIN>
+   <PIN pinname="Alpha" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="21" nodename="Switch (Value Input)">
+   <BOUNDS height="0" left="435" top="5820" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Switch" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="20" nodename="Switch (Value Input)">
+   <BOUNDS height="0" left="1380" top="5805" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Switch" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="19" nodename="Switch (Value Input)">
+   <BOUNDS height="0" left="2280" top="5805" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Switch" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="18" nodename="Switch (Value Input)">
+   <BOUNDS height="0" left="3195" top="5790" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Switch" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="17" nodename="Vector (4d Split)">
+   <BOUNDS height="0" left="6960" top="6480" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="XYZW" visible="1">
+   </PIN>
+   <PIN pinname="X" visible="1">
+   </PIN>
+   <PIN pinname="Y" visible="1">
+   </PIN>
+   <PIN pinname="Z" visible="1">
+   </PIN>
+   <PIN pinname="W" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="16" nodename="Switch (Value Input)">
+   <BOUNDS height="0" left="6960" top="5415" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   <PIN pinname="Switch" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="17" dstpinname="XYZW" srcnodeid="16" srcpinname="Output">
+   </LINK>
+   <LINK dstnodeid="21" dstpinname="Input 1" srcnodeid="23" srcpinname="Hue">
+   </LINK>
+   <LINK dstnodeid="20" dstpinname="Input 1" srcnodeid="23" srcpinname="Saturation">
+   </LINK>
+   <LINK dstnodeid="19" dstpinname="Input 1" srcnodeid="23" srcpinname="Value">
+   </LINK>
+   <LINK dstnodeid="18" dstpinname="Input 1" srcnodeid="23" srcpinname="Alpha">
+   </LINK>
+   <NODE componentmode="InABox" id="15" nodename="IOBOX (VALUE ADVANCED)">
+   <BOUNDS height="0" left="255" top="2955" type="Node" width="0">
+   </BOUNDS>
+   <BOUNDS height="160" left="2610" top="7755" type="Window" width="215">
+   </BOUNDS>
+   <BOUNDS height="630" left="255" top="2955" type="Box" width="1065">
+   </BOUNDS>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="SliceCount Mode" slicecount="1" values="ColsRowsPages">
+   </PIN>
+   <PIN pinname="Minimum" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Maximum" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Slider Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   <PIN pinname="Show Slider" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Show Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Toggle Me Old|">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="21" dstpinname="Switch" srcnodeid="15" srcpinname="Y Output Value">
+   </LINK>
+   <LINK dstnodeid="20" dstpinname="Switch" srcnodeid="15" srcpinname="Y Output Value">
+   </LINK>
+   <LINK dstnodeid="19" dstpinname="Switch" srcnodeid="15" srcpinname="Y Output Value">
+   </LINK>
+   <LINK dstnodeid="18" dstpinname="Switch" srcnodeid="15" srcpinname="Y Output Value">
+   </LINK>
+   <NODE componentmode="InABox" id="14" nodename="IOBox (Color)">
+   <BOUNDS height="0" left="1380" top="7650" type="Node" width="0">
+   </BOUNDS>
+   <BOUNDS height="160" left="4650" top="7830" type="Window" width="215">
+   </BOUNDS>
+   <BOUNDS height="450" left="1380" top="7650" type="Box" width="2600">
+   </BOUNDS>
+   <PIN pinname="Color Input" visible="1">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="13" nodename="HSV (Color Join)">
+   <BOUNDS height="0" left="1380" top="7020" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Hue" visible="1">
+   </PIN>
+   <PIN pinname="Saturation" visible="1">
+   </PIN>
+   <PIN pinname="Value" visible="1">
+   </PIN>
+   <PIN pinname="Alpha" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="13" dstpinname="Hue" srcnodeid="21" srcpinname="Output">
+   </LINK>
+   <LINK dstnodeid="13" dstpinname="Saturation" srcnodeid="20" srcpinname="Output">
+   </LINK>
+   <LINK dstnodeid="13" dstpinname="Value" srcnodeid="19" srcpinname="Output">
+   </LINK>
+   <LINK dstnodeid="13" dstpinname="Alpha" srcnodeid="18" srcpinname="Output">
+   </LINK>
+   <NODE componentmode="InABox" id="12" nodename="IOBox (Color)">
+   <BOUNDS height="0" left="3090" top="2955" type="Node" width="0">
+   </BOUNDS>
+   <BOUNDS height="160" left="4950" top="8130" type="Window" width="215">
+   </BOUNDS>
+   <BOUNDS height="465" left="3090" top="2955" type="Box" width="735">
+   </BOUNDS>
+   <PIN pinname="Color Input" slicecount="1" values="|0.20606,1.00000,0.00000,1.00000|">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="22" dstpinname="Input" srcnodeid="12" srcpinname="Color Output">
+   </LINK>
+   <LINK dstnodeid="21" dstpinname="Input 2" srcnodeid="22" srcpinname="Hue">
+   </LINK>
+   <LINK dstnodeid="20" dstpinname="Input 2" srcnodeid="22" srcpinname="Saturation">
+   </LINK>
+   <LINK dstnodeid="19" dstpinname="Input 2" srcnodeid="22" srcpinname="Value">
+   </LINK>
+   <LINK dstnodeid="18" dstpinname="Input 2" srcnodeid="22" srcpinname="Alpha">
+   </LINK>
+   <LINK dstnodeid="14" dstpinname="Color Input" srcnodeid="13" srcpinname="Output">
+   </LINK>
+   <NODE componentmode="InABox" id="11" nodename="IOBox (Color)">
+   <BOUNDS height="0" left="7500" top="2940" type="Node" width="0">
+   </BOUNDS>
+   <BOUNDS height="160" left="4650" top="7830" type="Window" width="215">
+   </BOUNDS>
+   <BOUNDS height="465" left="7500" top="2940" type="Box" width="735">
+   </BOUNDS>
+   <PIN pinname="Color Input" slicecount="50" values="|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|,|0.72934,0.00000,0.01247,1.00000|">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="50">
+   </PIN>
+   <PIN pinname="SliceCount Mode" slicecount="1" values="ColsRowsPages">
+   </PIN>
+   </NODE>
+   <NODE id="10" nodename="HSV (Color Split)">
+   <BOUNDS height="0" left="7500" top="3795" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Hue" visible="1">
+   </PIN>
+   <PIN pinname="Saturation" visible="1">
+   </PIN>
+   <PIN pinname="Value" visible="1">
+   </PIN>
+   <PIN pinname="Alpha" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="10" dstpinname="Input" srcnodeid="11" srcpinname="Color Output">
+   </LINK>
+   <NODE id="9" nodename="HSV (Color Split)">
+   <BOUNDS height="0" left="8670" top="3795" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Hue" visible="1">
+   </PIN>
+   <PIN pinname="Saturation" visible="1">
+   </PIN>
+   <PIN pinname="Value" visible="1">
+   </PIN>
+   <PIN pinname="Alpha" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="8" nodename="IOBOX (VALUE ADVANCED)">
+   <BOUNDS height="0" left="5940" top="2940" type="Node" width="0">
+   </BOUNDS>
+   <BOUNDS height="160" left="2910" top="8055" type="Window" width="215">
+   </BOUNDS>
+   <BOUNDS height="630" left="5940" top="2940" type="Box" width="1065">
+   </BOUNDS>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="SliceCount Mode" slicecount="1" values="ColsRowsPages">
+   </PIN>
+   <PIN pinname="Minimum" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Maximum" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Slider Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   <PIN pinname="Show Slider" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Show Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Toggle Me New|">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="7" nodename="IOBox (Color)">
+   <BOUNDS height="0" left="8670" top="2940" type="Node" width="0">
+   </BOUNDS>
+   <BOUNDS height="160" left="5250" top="8430" type="Window" width="215">
+   </BOUNDS>
+   <BOUNDS height="465" left="8670" top="2940" type="Box" width="735">
+   </BOUNDS>
+   <PIN pinname="Color Input" slicecount="50" values="|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|,|0.20606,1.00000,0.00000,1.00000|">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="50">
+   </PIN>
+   <PIN pinname="SliceCount Mode" slicecount="1" values="ColsRowsPages">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="9" dstpinname="Input" srcnodeid="7" srcpinname="Color Output">
+   </LINK>
+   <NODE id="6" nodename="Vector (4d Join)">
+   <BOUNDS height="0" left="7500" top="4425" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="X" visible="1">
+   </PIN>
+   <PIN pinname="Y" visible="1">
+   </PIN>
+   <PIN pinname="Z" visible="1">
+   </PIN>
+   <PIN pinname="W" visible="1">
+   </PIN>
+   <PIN pinname="XYZW" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="5" nodename="Vector (4d Join)">
+   <BOUNDS height="0" left="8670" top="4425" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="X" visible="1">
+   </PIN>
+   <PIN pinname="Y" visible="1">
+   </PIN>
+   <PIN pinname="Z" visible="1">
+   </PIN>
+   <PIN pinname="W" visible="1">
+   </PIN>
+   <PIN pinname="XYZW" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="5" dstpinname="X" srcnodeid="9" srcpinname="Hue">
+   </LINK>
+   <LINK dstnodeid="5" dstpinname="Y" srcnodeid="9" srcpinname="Saturation">
+   </LINK>
+   <LINK dstnodeid="5" dstpinname="Z" srcnodeid="9" srcpinname="Value">
+   </LINK>
+   <LINK dstnodeid="5" dstpinname="W" srcnodeid="9" srcpinname="Alpha">
+   </LINK>
+   <LINK dstnodeid="6" dstpinname="X" srcnodeid="10" srcpinname="Hue">
+   </LINK>
+   <LINK dstnodeid="6" dstpinname="Y" srcnodeid="10" srcpinname="Saturation">
+   </LINK>
+   <LINK dstnodeid="6" dstpinname="Z" srcnodeid="10" srcpinname="Value">
+   </LINK>
+   <LINK dstnodeid="6" dstpinname="W" srcnodeid="10" srcpinname="Alpha">
+   </LINK>
+   <LINK dstnodeid="16" dstpinname="Input 1" srcnodeid="6" srcpinname="XYZW">
+   </LINK>
+   <LINK dstnodeid="16" dstpinname="Input 2" srcnodeid="5" srcpinname="XYZW">
+   </LINK>
+   <LINK dstnodeid="16" dstpinname="Switch" srcnodeid="8" srcpinname="Y Output Value">
+   </LINK>
+   <NODE id="4" nodename="HSV (Color Join)">
+   <BOUNDS height="0" left="6960" top="7020" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Hue" visible="1">
+   </PIN>
+   <PIN pinname="Saturation" visible="1">
+   </PIN>
+   <PIN pinname="Value" visible="1">
+   </PIN>
+   <PIN pinname="Alpha" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="4" dstpinname="Hue" srcnodeid="17" srcpinname="X">
+   </LINK>
+   <LINK dstnodeid="4" dstpinname="Saturation" srcnodeid="17" srcpinname="Y">
+   </LINK>
+   <LINK dstnodeid="4" dstpinname="Value" srcnodeid="17" srcpinname="Z">
+   </LINK>
+   <LINK dstnodeid="4" dstpinname="Alpha" srcnodeid="17" srcpinname="W">
+   </LINK>
+   <NODE componentmode="InABox" id="3" nodename="IOBox (Color)">
+   <BOUNDS height="0" left="6960" top="7650" type="Node" width="0">
+   </BOUNDS>
+   <BOUNDS height="160" left="4950" top="8130" type="Window" width="215">
+   </BOUNDS>
+   <BOUNDS height="450" left="6960" top="7650" type="Box" width="2600">
+   </BOUNDS>
+   <PIN pinname="Color Input" visible="1">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="3" dstpinname="Color Input" srcnodeid="4" srcpinname="Output">
+   </LINK>
+   <NODE componentmode="InABox" id="2" nodename="IOBox (String)">
+   <BOUNDS height="690" left="240" top="1455" type="Node" width="3960">
+   </BOUNDS>
+   <BOUNDS height="690" left="240" top="1455" type="Box" width="3960">
+   </BOUNDS>
+   <BOUNDS height="160" left="0" top="0" type="Window" width="215">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="0" values="|Old Situation&cr;&lf;You need to use a lot off nodes, and draw messy lines,&cr;&lf;also, not so funny to repeat everything 4 times.|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="1" nodename="IOBox (String)">
+   <BOUNDS height="480" left="5880" top="1455" type="Node" width="1110">
+   </BOUNDS>
+   <BOUNDS height="945" left="5880" top="1455" type="Box" width="3345">
+   </BOUNDS>
+   <BOUNDS height="160" left="0" top="0" type="Window" width="215">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="0" values="|New Situation&cr;&lf;The Patch is cleaner, less nodes, and you can use colors with most nodes for values.|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="0" nodename="IOBox (String)">
+   <BOUNDS height="270" left="2325" top="8655" type="Node" width="5100">
+   </BOUNDS>
+   <BOUNDS height="930" left="2325" top="8655" type="Box" width="5295">
+   </BOUNDS>
+   <BOUNDS height="160" left="0" top="0" type="Window" width="215">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="0" values="|Bug Risk!! &cr;&lf;Since you are actualy working with 4 values, things like SetSlice or GetSlice need some extra patching to get 4 slices at once.|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="26">
+   <BOUNDS type="Node" left="255" top="390" width="1350" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="255" top="390" width="1350" height="270">
+   </BOUNDS>
+   <BOUNDS type="Window" left="0" top="0" width="215" height="160">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|West 2-oct-2006|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <PACK Name="addonpack" Version="33.7.0">
+   </PACK>
+   </PATCH>

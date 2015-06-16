@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
-   <PATCH nodename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\TexturesCrossing.v4p" systemname="TexturesCrossing" filename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\TexturesCrossing.v4p" scrollx="0" scrolly="588">
+   <PATCH nodename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\TexturesCrossing.v4p" systemname="TexturesCrossing" filename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\TexturesCrossing.v4p" scrollx="20676" scrolly="6492">
    <BOUNDS type="Window" left="5076" top="732" width="23304" height="12636">
    </BOUNDS>
    <PACK Name="addonpack" Version="33.7.0">
@@ -17,7 +17,7 @@
    <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="70">
    <BOUNDS type="Node" left="12630" top="5745" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   <PIN pinname="Input Node" visible="1" slicecount="5" values=",,,,">
    </PIN>
    <PIN pinname="Output Node" visible="1">
    </PIN>
@@ -47,7 +47,7 @@
    <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="68">
    <BOUNDS type="Node" left="16380" top="5730" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   <PIN pinname="Input Node" visible="1" slicecount="5" values=",,,,">
    </PIN>
    <PIN pinname="Output Node" visible="1">
    </PIN>
@@ -57,7 +57,7 @@
    <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="67">
    <BOUNDS type="Node" left="20190" top="5790" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   <PIN pinname="Input Node" visible="1" slicecount="5" values=",,,,">
    </PIN>
    <PIN pinname="Output Node" visible="1">
    </PIN>
@@ -67,7 +67,7 @@
    <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="66">
    <BOUNDS type="Node" left="23190" top="5820" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   <PIN pinname="Input Node" visible="1" slicecount="5" values=",,,,">
    </PIN>
    <PIN pinname="Output Node" visible="1">
    </PIN>
@@ -77,7 +77,7 @@
    <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="65">
    <BOUNDS type="Node" left="27150" top="5760" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   <PIN pinname="Input Node" visible="1" slicecount="5" values=",,,,">
    </PIN>
    <PIN pinname="Output Node" visible="1">
    </PIN>
@@ -136,6 +136,8 @@
    <PIN pinname="Width" visible="1">
    </PIN>
    </NODE>
+   <LINK srcnodeid="53" srcpinname="Texture Out" dstnodeid="69" dstpinname="Texture In 1">
+   </LINK>
    <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="52">
    <BOUNDS type="Node" left="11520" top="12000" width="100" height="100">
    </BOUNDS>
@@ -400,6 +402,14 @@
    </LINK>
    <LINK srcnodeid="68" srcpinname="Output Node" dstnodeid="35" dstpinname="Texture">
    </LINK>
+   <LINK srcnodeid="33" srcpinname="Texture Out" dstnodeid="69" dstpinname="Texture In 2">
+   </LINK>
+   <LINK srcnodeid="38" srcpinname="Texture Out" dstnodeid="69" dstpinname="Texture In 3">
+   </LINK>
+   <LINK srcnodeid="43" srcpinname="Texture Out" dstnodeid="69" dstpinname="Texture In 4">
+   </LINK>
+   <LINK srcnodeid="48" srcpinname="Texture Out" dstnodeid="69" dstpinname="Texture In 5">
+   </LINK>
    <LINK srcnodeid="67" srcpinname="Output Node" dstnodeid="40" dstpinname="Texture">
    </LINK>
    <LINK srcnodeid="66" srcpinname="Output Node" dstnodeid="45" dstpinname="Texture">
@@ -645,7 +655,7 @@
    </BOUNDS>
    <PIN pinname="Send String" slicecount="1" values="|TexturesCrossing_Textures In (To Cross)|">
    </PIN>
-   <PIN pinname="Input Value" visible="1" slicecount="1" values="||">
+   <PIN pinname="Input Value" visible="1">
    </PIN>
    </NODE>
    <LINK srcnodeid="3" srcpinname="Output Node" dstnodeid="90" dstpinname="Input Value">
@@ -783,7 +793,7 @@
    <NODE systemname="Count (Node)" nodename="Count (Node)" componentmode="Hidden" id="122">
    <BOUNDS type="Node" left="840" top="1125" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   <PIN pinname="Input" visible="1">
    </PIN>
    <PIN pinname="Count" visible="1">
    </PIN>
@@ -853,7 +863,7 @@
    </BOUNDS>
    <PIN pinname="Send String" slicecount="1" values="|TexturesCrossing_Textures Randomly Selected For Mutation|">
    </PIN>
-   <PIN pinname="Input Value" visible="1" slicecount="1" values="||">
+   <PIN pinname="Input Value" visible="1" slicecount="5" values=",,,,">
    </PIN>
    </NODE>
    <LINK srcnodeid="111" srcpinname="Output Node" dstnodeid="131" dstpinname="Input Value">
@@ -1160,6 +1170,108 @@
    </LINK>
    <LINK srcnodeid="153" srcpinname="R" dstnodeid="152" dstpinname="Red">
    </LINK>
+   <NODE systemname="RandomIndexes" filename="RandomIndexes.v4p" nodename="RandomIndexes.v4p" componentmode="Hidden" id="26">
+   <BOUNDS type="Node" left="13230" top="11175" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Height" visible="1">
+   </PIN>
+   <PIN pinname="Width" visible="1">
+   </PIN>
+   <PIN pinname="Range" visible="1">
+   </PIN>
+   <BOUNDS type="Box" left="13230" top="11175">
+   </BOUNDS>
+   <PIN pinname="Indexes" visible="1">
+   </PIN>
+   <PIN pinname="Scale" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="28" srcpinname="Input Value" dstnodeid="26" dstpinname="Height">
+   </LINK>
+   <LINK srcnodeid="29" srcpinname="Input Value" dstnodeid="26" dstpinname="Width">
+   </LINK>
+   <NODE systemname="RandomIndexes" filename="RandomIndexes.v4p" nodename="RandomIndexes.v4p" componentmode="Hidden" id="21">
+   <BOUNDS type="Node" left="16980" top="11175" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Height" visible="1">
+   </PIN>
+   <PIN pinname="Width" visible="1">
+   </PIN>
+   <PIN pinname="Range" visible="1">
+   </PIN>
+   <BOUNDS type="Window" left="8550" top="4245" width="9000" height="6000">
+   </BOUNDS>
+   <BOUNDS type="Box" left="16980" top="11175">
+   </BOUNDS>
+   <PIN pinname="Indexes" visible="1">
+   </PIN>
+   <PIN pinname="Scale" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="23" srcpinname="Input Value" dstnodeid="21" dstpinname="Height">
+   </LINK>
+   <LINK srcnodeid="24" srcpinname="Input Value" dstnodeid="21" dstpinname="Width">
+   </LINK>
+   <NODE systemname="RandomIndexes" filename="RandomIndexes.v4p" nodename="RandomIndexes.v4p" componentmode="Hidden" id="16">
+   <BOUNDS type="Node" left="20775" top="11175" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Height" visible="1">
+   </PIN>
+   <PIN pinname="Width" visible="1">
+   </PIN>
+   <PIN pinname="Range" visible="1">
+   </PIN>
+   <BOUNDS type="Box" left="20775" top="11175">
+   </BOUNDS>
+   <PIN pinname="Indexes" visible="1">
+   </PIN>
+   <PIN pinname="Scale" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="18" srcpinname="Input Value" dstnodeid="16" dstpinname="Height">
+   </LINK>
+   <LINK srcnodeid="19" srcpinname="Input Value" dstnodeid="16" dstpinname="Width">
+   </LINK>
+   <NODE systemname="RandomIndexes" filename="RandomIndexes.v4p" nodename="RandomIndexes.v4p" componentmode="Hidden" id="11">
+   <BOUNDS type="Node" left="23790" top="11175" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Height" visible="1">
+   </PIN>
+   <PIN pinname="Width" visible="1">
+   </PIN>
+   <PIN pinname="Range" visible="1">
+   </PIN>
+   <BOUNDS type="Box" left="23790" top="11175">
+   </BOUNDS>
+   <PIN pinname="Indexes" visible="1">
+   </PIN>
+   <PIN pinname="Scale" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="13" srcpinname="Input Value" dstnodeid="11" dstpinname="Height">
+   </LINK>
+   <LINK srcnodeid="14" srcpinname="Input Value" dstnodeid="11" dstpinname="Width">
+   </LINK>
+   <NODE systemname="RandomIndexes" filename="RandomIndexes.v4p" nodename="RandomIndexes.v4p" componentmode="Hidden" id="6">
+   <BOUNDS type="Node" left="27720" top="11175" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Height" visible="1">
+   </PIN>
+   <PIN pinname="Width" visible="1">
+   </PIN>
+   <PIN pinname="Range" visible="1">
+   </PIN>
+   <BOUNDS type="Box" left="27720" top="11175">
+   </BOUNDS>
+   <PIN pinname="Indexes" visible="1">
+   </PIN>
+   <PIN pinname="Scale" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="8" srcpinname="Input Value" dstnodeid="6" dstpinname="Height">
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="Input Value" dstnodeid="6" dstpinname="Width">
+   </LINK>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="158">
    <BOUNDS type="Node" left="13185" top="210" width="100" height="100">
    </BOUNDS>
@@ -1192,6 +1304,8 @@
    <PIN pinname="Input Value" visible="1">
    </PIN>
    </NODE>
+   <LINK srcnodeid="159" srcpinname="Input Value" dstnodeid="26" dstpinname="Scale">
+   </LINK>
    <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="160">
    <BOUNDS type="Node" left="18240" top="10725" width="100" height="100">
    </BOUNDS>
@@ -1224,8 +1338,16 @@
    <PIN pinname="Input Value" visible="1">
    </PIN>
    </NODE>
+   <LINK srcnodeid="163" srcpinname="Input Value" dstnodeid="6" dstpinname="Scale">
+   </LINK>
+   <LINK srcnodeid="162" srcpinname="Input Value" dstnodeid="11" dstpinname="Scale">
+   </LINK>
+   <LINK srcnodeid="161" srcpinname="Input Value" dstnodeid="16" dstpinname="Scale">
+   </LINK>
+   <LINK srcnodeid="160" srcpinname="Input Value" dstnodeid="21" dstpinname="Scale">
+   </LINK>
    <NODE systemname="RandomRange" filename="RandomRange.v4p" nodename="RandomRange.v4p" componentmode="Hidden" id="164">
-   <BOUNDS type="Node" left="13272" top="11112" width="100" height="100">
+   <BOUNDS type="Node" left="14928" top="10992" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Width" visible="1">
    </PIN>
@@ -1245,7 +1367,7 @@
    <LINK srcnodeid="164" srcpinname="Range" dstnodeid="30" dstpinname="Index">
    </LINK>
    <NODE systemname="RandomRange" filename="RandomRange.v4p" nodename="RandomRange.v4p" componentmode="Hidden" id="165">
-   <BOUNDS type="Node" left="17004" top="11184" width="100" height="100">
+   <BOUNDS type="Node" left="18696" top="11376" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Width" visible="1" slicecount="1" values="0">
    </PIN>
@@ -1257,7 +1379,7 @@
    </PIN>
    </NODE>
    <NODE systemname="RandomRange" filename="RandomRange.v4p" nodename="RandomRange.v4p" componentmode="Hidden" id="166">
-   <BOUNDS type="Node" left="20736" top="11220" width="100" height="100">
+   <BOUNDS type="Node" left="22344" top="11352" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Width" visible="1" slicecount="1" values="0">
    </PIN>
@@ -1269,7 +1391,7 @@
    </PIN>
    </NODE>
    <NODE systemname="RandomRange" filename="RandomRange.v4p" nodename="RandomRange.v4p" componentmode="Hidden" id="167">
-   <BOUNDS type="Node" left="24036" top="11184" width="100" height="100">
+   <BOUNDS type="Node" left="25332" top="11472" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Width" visible="1" slicecount="1" values="0">
    </PIN>
@@ -1281,7 +1403,7 @@
    </PIN>
    </NODE>
    <NODE systemname="RandomRange" filename="RandomRange.v4p" nodename="RandomRange.v4p" componentmode="Hidden" id="168">
-   <BOUNDS type="Node" left="27696" top="11184" width="100" height="100">
+   <BOUNDS type="Node" left="29520" top="11496" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Width" visible="1" slicecount="1" values="0">
    </PIN>
@@ -1323,75 +1445,5 @@
    <LINK srcnodeid="163" srcpinname="Input Value" dstnodeid="168" dstpinname="Scale">
    </LINK>
    <LINK srcnodeid="168" srcpinname="Range" dstnodeid="10" dstpinname="Index">
-   </LINK>
-   <NODE systemname="ChangeFormat (EX9.Texture)" filename="%VVVV%\addonpack\lib\nodes\modules\TextureFX\misc\ChangeFormat (EX9.Texture).v4p" nodename="ChangeFormat (EX9.Texture)" componentmode="Hidden" id="169">
-   <BOUNDS type="Node" left="12048" top="13488" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Format" slicecount="1" values="R5G6B5">
-   </PIN>
-   <PIN pinname="Input" visible="1">
-   </PIN>
-   <PIN pinname="Output" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="53" srcpinname="Texture Out" dstnodeid="169" dstpinname="Input">
-   </LINK>
-   <NODE systemname="ChangeFormat (EX9.Texture)" filename="%VVVV%\addonpack\lib\nodes\modules\TextureFX\misc\ChangeFormat (EX9.Texture).v4p" nodename="ChangeFormat (EX9.Texture)" componentmode="Hidden" id="170">
-   <BOUNDS type="Node" left="15324" top="13272" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Format" slicecount="1" values="R5G6B5">
-   </PIN>
-   <PIN pinname="Input" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Output" visible="1">
-   </PIN>
-   </NODE>
-   <NODE systemname="ChangeFormat (EX9.Texture)" filename="%VVVV%\addonpack\lib\nodes\modules\TextureFX\misc\ChangeFormat (EX9.Texture).v4p" nodename="ChangeFormat (EX9.Texture)" componentmode="Hidden" id="171">
-   <BOUNDS type="Node" left="19068" top="13332" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Format" slicecount="1" values="R5G6B5">
-   </PIN>
-   <PIN pinname="Input" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Output" visible="1">
-   </PIN>
-   </NODE>
-   <NODE systemname="ChangeFormat (EX9.Texture)" filename="%VVVV%\addonpack\lib\nodes\modules\TextureFX\misc\ChangeFormat (EX9.Texture).v4p" nodename="ChangeFormat (EX9.Texture)" componentmode="Hidden" id="172">
-   <BOUNDS type="Node" left="22200" top="13248" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Format" slicecount="1" values="R5G6B5">
-   </PIN>
-   <PIN pinname="Input" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Output" visible="1">
-   </PIN>
-   </NODE>
-   <NODE systemname="ChangeFormat (EX9.Texture)" filename="%VVVV%\addonpack\lib\nodes\modules\TextureFX\misc\ChangeFormat (EX9.Texture).v4p" nodename="ChangeFormat (EX9.Texture)" componentmode="Hidden" id="173">
-   <BOUNDS type="Node" left="26052" top="13200" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Format" slicecount="1" values="R5G6B5">
-   </PIN>
-   <PIN pinname="Input" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Output" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="33" srcpinname="Texture Out" dstnodeid="170" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="38" srcpinname="Texture Out" dstnodeid="171" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="43" srcpinname="Texture Out" dstnodeid="172" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="48" srcpinname="Texture Out" dstnodeid="173" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="173" srcpinname="Output" dstnodeid="69" dstpinname="Texture In 5">
-   </LINK>
-   <LINK srcnodeid="172" srcpinname="Output" dstnodeid="69" dstpinname="Texture In 4">
-   </LINK>
-   <LINK srcnodeid="171" srcpinname="Output" dstnodeid="69" dstpinname="Texture In 3">
-   </LINK>
-   <LINK srcnodeid="170" srcpinname="Output" dstnodeid="69" dstpinname="Texture In 2">
-   </LINK>
-   <LINK srcnodeid="169" srcpinname="Output" dstnodeid="69" dstpinname="Texture In 1">
    </LINK>
    </PATCH>
