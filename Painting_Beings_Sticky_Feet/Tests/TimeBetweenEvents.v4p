@@ -1,0 +1,193 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv33beta11.1.dtd" >
+   <PATCH nodename="C:\Dokumente und Einstellungen\pjost.GG.000\Desktop\vvvv tipps und tricks\TimeBetweenEvents.v4p" componentmode="InAWindow" locked="0">
+   <BOUNDS type="Window" left="11610" top="9195" width="8010" height="6000">
+   </BOUNDS>
+   <NODE id="9" nodename="TogEdge (Animation)">
+   <BOUNDS height="0" left="3270" top="990" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Up Edge" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="8" nodename="Stopwatch (Animation)">
+   <BOUNDS height="0" left="2820" top="2685" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Reset" visible="1">
+   </PIN>
+   <PIN pinname="Run" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="6" nodename="IOBox (Value Advanced)">
+   <BOUNDS height="0" left="2550" top="120" type="Node" width="0">
+   </BOUNDS>
+   <BOUNDS height="160" left="15165" top="6435" type="Window" width="215">
+   </BOUNDS>
+   <BOUNDS height="480" left="2550" top="120" type="Box" width="780">
+   </BOUNDS>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Event">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
+   </PIN>
+   <PIN pinname="Slider Behavior" slicecount="1" values="Bang">
+   </PIN>
+   <PIN pinname="Show Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Show Slider" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Minimum" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Maximum" slicecount="1" values="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="9" dstpinname="Input" srcnodeid="6" srcpinname="Y Output Value">
+   </LINK>
+   <NODE id="7" nodename="FrameDelay (Animation)" hiddenwhenlocked="0" managers="">
+   <PIN pinname="Input 1" visible="1" pintype="Input">
+   </PIN>
+   <BOUNDS type="Node" left="3630" top="2130" height="0" width="0">
+   </BOUNDS>
+   <PIN pinname="Output 1" visible="1" pintype="Output">
+   </PIN>
+   <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Count" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Input" pintype="Input" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Output" pintype="Output">
+   </PIN>
+   </NODE>
+   <NODE nodename="S+H (Animation)" id="10">
+   <BOUNDS type="Node" left="2835" top="4185" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Set" visible="1">
+   </PIN>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="11">
+   <BOUNDS type="Node" left="2085" top="4905" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Window" left="15795" top="13455" width="215" height="160">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2085" top="4905" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="10" srcpinname="Output" dstnodeid="11" dstpinname="Y Input Value">
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="Up Edge" dstnodeid="10" dstpinname="Set">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="13">
+   <BOUNDS type="Node" left="4080" top="975" width="2265" height="480">
+   </BOUNDS>
+   <BOUNDS type="Box" left="4080" top="975" width="3585" height="720">
+   </BOUNDS>
+   <BOUNDS type="Window" left="0" top="0" width="215" height="160">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt;-to shorten all events to bangs. could be other nodes like change to depending on what your eventinput and what you like to measure.|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="8" srcpinname="Output" dstnodeid="10" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="Up Edge" dstnodeid="7" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="7" srcpinname="Output 1" dstnodeid="8" dstpinname="Reset">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="14">
+   <BOUNDS type="Node" left="2100" top="2130" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Window" left="15960" top="11190" width="215" height="160">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2100" top="2130" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="14" srcpinname="Y Output Value" dstnodeid="8" dstpinname="Run">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="15">
+   <BOUNDS type="Node" left="45" top="2130" width="2025" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="45" top="2130" width="2025" height="270">
+   </BOUNDS>
+   <BOUNDS type="Window" left="0" top="0" width="215" height="160">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Watch is always running-&gt;|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="16">
+   <BOUNDS type="Node" left="4695" top="2130" width="3660" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="4695" top="2130" width="2850" height="1260">
+   </BOUNDS>
+   <BOUNDS type="Window" left="0" top="0" width="215" height="160">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt;- to reset the stopwatch one frame after being sampled.&cr;&lf;its necessary because without it you always sample at the moment when the clock is reseted to second 0.|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="17">
+   <BOUNDS type="Node" left="1875" top="3060" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Window" left="14775" top="12720" width="215" height="160">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1875" top="3060" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="8" srcpinname="Output" dstnodeid="17" dstpinname="Y Input Value">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="18">
+   <BOUNDS type="Node" left="3375" top="4170" width="4095" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3375" top="4170" width="4095" height="270">
+   </BOUNDS>
+   <BOUNDS type="Window" left="0" top="0" width="215" height="160">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt;- samples the time at the moments the events happen.|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="19">
+   <BOUNDS type="Node" left="2985" top="4860" width="2625" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2985" top="4860" width="2625" height="270">
+   </BOUNDS>
+   <BOUNDS type="Window" left="0" top="0" width="215" height="160">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt;- Time passed between the events in seconds|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   </PATCH>

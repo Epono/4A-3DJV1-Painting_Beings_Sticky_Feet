@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
-   <PATCH nodename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\RandomRange.v4p" scrollx="75" scrolly="1755" systemname="RandomRange" filename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\RandomRange.v4p">
-   <BOUNDS type="Window" left="8550" top="4245" width="9000" height="6000">
+   <PATCH nodename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\RandomRange.v4p" scrollx="0" scrolly="360" systemname="RandomRange" filename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\RandomRange.v4p">
+   <BOUNDS type="Window" left="5100" top="4224" width="9000" height="6000">
    </BOUNDS>
    <NODE systemname="I (Spreads)" nodename="I (Spreads)" componentmode="Hidden" id="7">
    <BOUNDS type="Node" left="1815" top="4689" width="100" height="100">
@@ -17,7 +17,7 @@
    </BOUNDS>
    <PIN pinname="Output" visible="1">
    </PIN>
-   <PIN pinname="Scale" visible="1" slicecount="1" values="480">
+   <PIN pinname="Scale" visible="1" slicecount="1" values="25">
    </PIN>
    <PIN pinname="Is Integer" slicecount="1" values="1">
    </PIN>
@@ -25,7 +25,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Multiply (Value)" nodename="Multiply (Value)" componentmode="Hidden" id="3">
-   <BOUNDS type="Node" left="2451" top="2163" width="100" height="100">
+   <BOUNDS type="Node" left="2679" top="1227" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input 1" visible="1" slicecount="1" values="60">
    </PIN>
@@ -34,8 +34,6 @@
    <PIN pinname="Output" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="3" srcpinname="Output" dstnodeid="6" dstpinname="Scale">
-   </LINK>
    <LINK srcnodeid="6" srcpinname="Output" dstnodeid="7" dstpinname="[ From ..">
    </LINK>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="2">
@@ -79,9 +77,9 @@
    <LINK srcnodeid="0" srcpinname="Output" dstnodeid="7" dstpinname=".. To [">
    </LINK>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="8">
-   <BOUNDS type="Node" left="2439" top="1170" width="100" height="100">
+   <BOUNDS type="Node" left="2667" top="234" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="2439" top="1170" width="792" height="240">
+   <BOUNDS type="Box" left="2667" top="234" width="792" height="240">
    </BOUNDS>
    <PIN pinname="Value Type" slicecount="1" values="Integer">
    </PIN>
@@ -89,11 +87,13 @@
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="5">
+   </PIN>
    </NODE>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="9">
-   <BOUNDS type="Node" left="2709" top="1716" width="100" height="100">
+   <BOUNDS type="Node" left="2937" top="780" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="2709" top="1716" width="795" height="240">
+   <BOUNDS type="Box" left="2937" top="780" width="795" height="240">
    </BOUNDS>
    <PIN pinname="Value Type" slicecount="1" values="Integer">
    </PIN>
@@ -101,25 +101,9 @@
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   </NODE>
-   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="10">
-   <BOUNDS type="Node" left="1827" top="5181" width="100" height="100">
-   </BOUNDS>
-   <BOUNDS type="Box" left="1827" top="5181" width="345" height="1065">
-   </BOUNDS>
-   <PIN pinname="Value Type" slicecount="1" values="Integer">
-   </PIN>
-   <PIN pinname="Y Input Value" visible="1">
-   </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="Range">
-   </PIN>
-   <PIN pinname="SliceCount Mode" slicecount="1" values="ColsRowsPages">
-   </PIN>
-   <PIN pinname="Rows" slicecount="1" values="5">
+   <PIN pinname="Y Input Value" slicecount="1" values="5">
    </PIN>
    </NODE>
-   <LINK srcnodeid="7" srcpinname="Output" dstnodeid="10" dstpinname="Y Input Value">
-   </LINK>
    <LINK srcnodeid="8" srcpinname="Y Output Value" dstnodeid="3" dstpinname="Input 1">
    </LINK>
    <LINK srcnodeid="9" srcpinname="Y Output Value" dstnodeid="3" dstpinname="Input 2">
@@ -127,9 +111,9 @@
    <PACK Name="addonpack" Version="33.7.0">
    </PACK>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="11">
-   <BOUNDS type="Node" left="2700" top="3150" width="100" height="100">
+   <BOUNDS type="Node" left="3168" top="1554" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="2700" top="3150" width="795" height="240">
+   <BOUNDS type="Box" left="3168" top="1554" width="795" height="240">
    </BOUNDS>
    <PIN pinname="Value Type" slicecount="1" values="Integer">
    </PIN>
@@ -141,5 +125,37 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="11" srcpinname="Y Output Value" dstnodeid="1" dstpinname="Scale">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="12" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="1836" top="5328" width="792" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1836" top="5328" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Range">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="7" srcpinname="Output" dstnodeid="12" dstpinname="Y Input Value">
+   </LINK>
+   <NODE systemname="Subtract (Value)" nodename="Subtract (Value)" componentmode="Hidden" id="14">
+   <BOUNDS type="Node" left="2640" top="2016" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="11" srcpinname="Y Output Value" dstnodeid="14" dstpinname="Input 2">
+   </LINK>
+   <LINK srcnodeid="3" srcpinname="Output" dstnodeid="14" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="14" srcpinname="Output" dstnodeid="6" dstpinname="Scale">
    </LINK>
    </PATCH>
