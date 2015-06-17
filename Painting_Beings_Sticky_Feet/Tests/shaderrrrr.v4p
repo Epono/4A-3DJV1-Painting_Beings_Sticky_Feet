@@ -1,0 +1,103 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
+   <PATCH nodename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\Tests\shaderrrrr.v4p" scrollx="0" scrolly="0" systemname="callmenames" filename="C:\Users\IEUser\org\vvvv_45beta33.7_x86\vvvv_45beta33.7_x86\callmenames.v4p">
+   <BOUNDS type="Window" left="0" top="0" width="8940" height="9036">
+   </BOUNDS>
+   <PACK Name="addonpack" Version="33.7.0">
+   </PACK>
+   <NODE nodename="Group (EX9)" id="108" systemname="Group (EX9)">
+   <BOUNDS type="Node" left="1836" top="2700" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1836" top="2700" width="2400" height="1800">
+   </BOUNDS>
+   <PIN pinname="Layer 2" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <NODE nodename="Renderer (EX9)" componentmode="InAWindow" id="109" systemname="Renderer (EX9)">
+   <BOUNDS type="Node" left="1836" top="3144" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1836" top="3144" width="2400" height="1800">
+   </BOUNDS>
+   <BOUNDS type="Window" left="996" top="6516" width="6216" height="5064">
+   </BOUNDS>
+   <PIN pinname="View" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Windowed Depthbuffer Format" slicecount="1" values="D24X8">
+   </PIN>
+   <PIN pinname="Fullscreen Depthbuffer Format" slicecount="1" values="D24X8">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="108" srcpinname="Layer" dstnodeid="109" dstpinname="Layers">
+   </LINK>
+   <NODE systemname="Camera (Transform Softimage)" filename="%VVVV%\lib\nodes\modules\Transform\Camera (Transform Softimage).v4p" nodename="Camera (Transform Softimage)" componentmode="Hidden" id="113">
+   <BOUNDS type="Node" left="3084" top="2700" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="View Projection" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="113" srcpinname="View Projection" dstnodeid="109" dstpinname="View">
+   </LINK>
+   <NODE systemname="TemplateShaderMesBoules (EX9.Effect)" filename="effects\TemplateShaderMesBoules.fx" nodename="TemplateShaderMesBoules (EX9.Effect)" componentmode="Hidden" id="116">
+   <BOUNDS type="Node" left="1956" top="2052" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Mesh" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Texture" visible="1">
+   </PIN>
+   <PIN pinname="Transform" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="116" srcpinname="Layer" dstnodeid="108" dstpinname="Layer 2">
+   </LINK>
+   <NODE systemname="FileTexture (EX9.Texture)" nodename="FileTexture (EX9.Texture)" componentmode="Hidden" id="118">
+   <BOUNDS type="Node" left="5064" top="1356" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Texture Out" visible="1">
+   </PIN>
+   <PIN pinname="Filename" slicecount="1" values="..\Resources\Images\lucas.jpg">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="118" srcpinname="Texture Out" dstnodeid="116" dstpinname="Texture">
+   </LINK>
+   <NODE systemname="Box (EX9.Geometry)" nodename="Box (EX9.Geometry)" componentmode="Hidden" id="120">
+   <BOUNDS type="Node" left="1944" top="996" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Mesh" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Grid (EX9.Geometry)" nodename="Grid (EX9.Geometry)" componentmode="Hidden" id="121">
+   <BOUNDS type="Node" left="2088" top="1332" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Mesh" visible="1">
+   </PIN>
+   <PIN pinname="Resolution X" slicecount="1" values="4">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="120" srcpinname="Mesh" dstnodeid="116" dstpinname="Mesh">
+   </LINK>
+   <NODE systemname="LinearSpread (Spreads)" nodename="LinearSpread (Spreads)" componentmode="Hidden" id="128">
+   <BOUNDS type="Node" left="2700" top="336" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Spread Count" slicecount="1" values="2">
+   </PIN>
+   <PIN pinname="Width" slicecount="1" values="2.37">
+   </PIN>
+   </NODE>
+   <NODE systemname="Transform (Transform 2d)" nodename="Transform (Transform 2d)" componentmode="Hidden" id="129">
+   <BOUNDS type="Node" left="2700" top="1176" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="TranslateX" visible="1">
+   </PIN>
+   <PIN pinname="Transform Out" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="128" srcpinname="Output" dstnodeid="129" dstpinname="TranslateX">
+   </LINK>
+   <LINK srcnodeid="129" srcpinname="Transform Out" dstnodeid="116" dstpinname="Transform">
+   </LINK>
+   </PATCH>
