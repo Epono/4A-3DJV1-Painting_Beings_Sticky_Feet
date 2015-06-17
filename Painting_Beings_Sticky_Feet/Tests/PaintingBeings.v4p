@@ -1237,13 +1237,13 @@
    </PIN>
    <PIN pinname="Light Direction Out" visible="1">
    </PIN>
-   <PIN pinname="Distance" slicecount="1" values="7">
+   <PIN pinname="Distance" slicecount="1" values="7.62">
    </PIN>
    <PIN pinname="Scale" slicecount="1" pintype="Input" visible="1" values="2">
    </PIN>
    <PIN pinname="Name" slicecount="1" pintype="Input" visible="1" values="|Main Light|">
    </PIN>
-   <PIN pinname="Pitch" visible="1" slicecount="1" values="0">
+   <PIN pinname="Pitch" visible="1" slicecount="1" values="-0.08">
    </PIN>
    <PIN pinname="Yaw" visible="1" slicecount="1" values="0.5">
    </PIN>
