@@ -815,7 +815,7 @@
    </PIN>
    <PIN pinname="Windowed Depthbuffer Format" slicecount="1" values="D16">
    </PIN>
-   <PIN pinname="Fullscreen Depthbuffer Format" slicecount="1" values="NONE">
+   <PIN pinname="Fullscreen Depthbuffer Format" slicecount="1" values="D16">
    </PIN>
    <PIN pinname="Fullscreen Dimensions" slicecount="1" values="|1024 x 768|">
    </PIN>
