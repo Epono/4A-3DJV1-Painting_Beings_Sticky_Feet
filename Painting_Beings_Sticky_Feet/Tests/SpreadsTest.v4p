@@ -1,8 +1,8 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
-   <PATCH nodename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\Tests\SpreadsTest.v4p" scrollx="2904" scrolly="1452" systemname="jenesaispas" filename="C:\Users\asusasus\Documents\4A3DJV\Modelisation3D\Projet Sticky Feets\Projet\Painting_Beings_Sticky_Feet\jenesaispas.v4p">
+   <PATCH nodename="D:\Média\Documents\Repos\4A-3DJV1-Painting_Beings_Sticky_Feet\Painting_Beings_Sticky_Feet\Tests\SpreadsTest.v4p" scrollx="4728" scrolly="36" systemname="jenesaispas" filename="C:\Users\asusasus\Documents\4A3DJV\Modelisation3D\Projet Sticky Feets\Projet\Painting_Beings_Sticky_Feet\jenesaispas.v4p">
    <BOUNDS type="Window" left="0" top="0" width="15396" height="11136">
    </BOUNDS>
-   <NODE componentmode="InABox" id="84" nodename="Renderer (EX9)" systemname="RENDERER (EX9)">
+   <NODE componentmode="InAWindow" id="84" nodename="Renderer (EX9)" systemname="RENDERER (EX9)">
    <BOUNDS height="0" left="10338" top="11061" type="Node" width="0">
    </BOUNDS>
    <BOUNDS height="7140" left="12840" top="516" type="Window" width="9228">
@@ -49,7 +49,7 @@
    </PIN>
    </NODE>
    <NODE id="81" nodename="LFO (Animation)" systemname="LFO (Animation)">
-   <BOUNDS height="0" left="11550" top="9522" type="Node" width="0">
+   <BOUNDS height="0" left="12246" top="10086" type="Node" width="0">
    </BOUNDS>
    <PIN pinname="Output" visible="1">
    </PIN>
@@ -85,7 +85,7 @@
    <LINK dstnodeid="83" dstpinname="Layer 2" srcnodeid="79" srcpinname="Layer">
    </LINK>
    <NODE id="77" nodename="AspectRatio (Transform)" systemname="AspectRatio (Transform)">
-   <BOUNDS height="0" left="12405" top="9522" type="Node" width="0">
+   <BOUNDS height="0" left="13101" top="10086" type="Node" width="0">
    </BOUNDS>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
@@ -143,11 +143,11 @@
    <LINK dstnodeid="79" dstpinname="Layer 2" srcnodeid="74" srcpinname="Layer">
    </LINK>
    <NODE componentmode="Hidden" id="73" nodename="Camera (Transform Softimage)" systemname="Camera (Transform Softimage)" filename="%VVVV%\lib\nodes\modules\Transform\Camera (Transform Softimage).v4p">
-   <BOUNDS height="100" left="11355" top="9987" type="Node" width="100">
+   <BOUNDS height="100" left="12051" top="10551" type="Node" width="100">
    </BOUNDS>
    <BOUNDS height="6000" left="7245" top="6690" type="Window" width="9000">
    </BOUNDS>
-   <BOUNDS height="3600" left="11355" top="9987" type="Box" width="4800">
+   <BOUNDS height="3600" left="12051" top="10551" type="Box" width="4800">
    </BOUNDS>
    <PIN pinname="View" visible="1">
    </PIN>
@@ -287,9 +287,9 @@
    <LINK srcnodeid="75" srcpinname="Y Output Value" dstnodeid="72" dstpinname="Light Position">
    </LINK>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="87">
-   <BOUNDS type="Node" left="11340" top="8400" width="100" height="100">
+   <BOUNDS type="Node" left="12036" top="9252" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="11340" top="8400" width="795" height="720">
+   <BOUNDS type="Box" left="12036" top="9252" width="795" height="720">
    </BOUNDS>
    <PIN pinname="Rows" slicecount="1" values="3">
    </PIN>
@@ -699,7 +699,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="11028" top="684" width="444" height="240">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="9.91">
+   <PIN pinname="Y Input Value" slicecount="1" values="7.39">
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
@@ -791,9 +791,9 @@
    </PIN>
    </NODE>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="190">
-   <BOUNDS type="Node" left="14568" top="6624" width="100" height="100">
+   <BOUNDS type="Node" left="13008" top="5376" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="14568" top="6624" width="480" height="480">
+   <BOUNDS type="Box" left="13008" top="5376" width="480" height="480">
    </BOUNDS>
    <PIN pinname="Value Type" slicecount="1" values="Boolean">
    </PIN>
