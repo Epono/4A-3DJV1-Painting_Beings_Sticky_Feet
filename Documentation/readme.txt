@@ -1,21 +1,26 @@
-Lancer "PaintingBeings.v4p" pour lancer le projet.
+Run "PaintingBeings.v4p" to launch the patch.
 
-Raccourcis (quand la fenêtre de rendu est active) :
+Shortcuts (when the render window is focused) :
+Enter 					- Run the genetic algorithm
+Alt + Enter 			- Toggle fullscreen
+A 						- Toggle the display of the axis, ground and light position
+M/L 					- Decrease/Increase the number of spheres to display the image
+Left Arrow/Right Arrow	 - Decrease/Increase the spheres' spacing
+Down Arrow/Up Arrow 	 - Decrease/Increase the spheres' size
+F 						- Reset spacing/size of spheres/number of spheres
+S 						- Display the base image
+J 						- Activate "JigglyMode" !
+C 						- Switch input between camera and image
+X						- Activate "LucasMode"
+H 						- Switch between reset modes (swaggy camera or fixed point of view)
+D 						- Projects the spheres to view the figure in 3D
+E 						- Explodes the spheres in all directions
 
-Entrée 					- Lance/arrête l'algorithme génétique
-Alt + Entrée			- Plein écran/mode fenêtré
-E 						- Explosion des sphères
-A 						- Affichage de la grille et de la lumière
-L/M 					- Augmenter/diminuer la résolution de l'image
-Flèche gauche/droite 	- Diminuer/augmenter l'espacement entre les images
-Flèche bas/haut 		- Diminuer/augmenter la taille des sphères
-S 						- Affichage de la solution
-J 						- Activer le "JigglyMode" (les sphères gigotent)
-C 						- Basculer entre input caméra/image
+Camera controls :
+Z + drag left clic	 	- Pan
+O + drag left clic		- Rotation
+P + drag left clic 		- Zoom
+R (hold)				- Reset camera
 
-Déplacement caméra :
-
-Z + drag clic gauche 	- Pan
-O + drag clic gauche	- Rotation
-P + drag clic gauche 	- Zoom/Dezoom
-R (maintenu)			- Reset de la caméra
+PS : If you want to run "TestDX11.v4p", you must install the DX11 nodes
+http://vvvv.org/contribution/directx11-nodes-alpha
