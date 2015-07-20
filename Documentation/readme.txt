@@ -15,6 +15,7 @@ X						- Activate "LucasMode"
 H 						- Switch between reset modes (swaggy camera or fixed point of view)
 D 						- Projects the spheres to view the figure in 3D
 E 						- Explodes the spheres in all directions
+Ctrl + 2 				- Takes a screenshot of the render window and saves it in the folder of the project
 
 Camera controls :
 Z + drag left clic	 	- Pan
